@@ -1,0 +1,15 @@
+.todo-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  flex-direction: column;
+}
+
+.todo-icon {
+  height: 2rem;
+  width: 2rem;
+  color: blue;
+  padding: 1rem;
+  cursor: pointer;
+}

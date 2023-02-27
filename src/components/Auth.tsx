@@ -25,7 +25,7 @@ export const Auth: FC = () => {
     processAuth,
     registerMutation,
     loginMutation,
-    logout,
+    // logout,
   } = useProcessAuth()
   if (registerMutation.isLoading || loginMutation.isLoading) {
     return (
