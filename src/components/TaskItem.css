@@ -6,22 +6,7 @@
   flex-direction: column;
 }
 
-.todo-title {
-  display: flex;
-  align-items: center;
-}
-
-.todo-title-text {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
-}
-
-.todo-user-info {
-  font-size: medium;
-}
-
-.todo-icon {
+.taskitem-icon {
   height: 2rem;
   width: 2rem;
   color: blue;
