@@ -15,7 +15,7 @@ const TaskItemMemo: FC<
   const { deleteTaskMutation } = useMutateTask()
   return (
     <li>
-      <span className="taskitem-list " onClick={() => setId(id)}>
+      <span className="taskitem-list fusen " onClick={() => setId(id)}>
         {title}
       </span>
       <div className="taskitem-list-content ">

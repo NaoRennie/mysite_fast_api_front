@@ -9,16 +9,30 @@
 .todo-title {
   display: flex;
   align-items: center;
+  font-size: larger;
 }
 
 .todo-title-text {
   text-align: center;
   font-weight: bold;
   font-size: large;
+  margin-top: 3rem;
 }
 
-.todo-user-info {
+.todo-user-info p {
   font-size: medium;
+  color: gray;
+  margin: 0;
+}
+.todo-user-info span {
+  font-size: medium;
+  color: gray;
+  font-weight: bold;
+}
+
+.todo-user-info img {
+  width: 100px;
+  height: auto;
 }
 
 .todo-icon {
@@ -27,4 +41,73 @@
   color: blue;
   padding: 1rem;
   cursor: pointer;
+}
+.todo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0.9em 2em;
+  border: 1px solid #2589d0;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #2589d0;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.todo-button:disabled {
+  opacity: 40%;
+}
+
+.todo-p-text {
+  color: gray;
+  font-size: small;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d2d2d2;
+  border-radius: 25px;
+  background: #f7f7f7;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.todo-input::placeholder {
+  color: #999;
+}
+
+.todo-ul {
+  margin: 10px;
+}
+
+.todo-list p {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.kakomi-tab2 {
+  position: relative;
+  margin: 1em auto;
+  padding: 1.2em 1em 1em;
+  width: 90%;
+  background-color: #fff;
+  border: 2px solid #2589d0;
+  box-shadow: 2px 2px 2px #ccc;
+}
+.title-tab2 {
+  position: absolute;
+  display: inline-block;
+  top: -28px;
+  left: -2px;
+  padding: 1px 10px;
+  height: 26px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2589d0;
+  border-radius: 8px 8px 0 0;
 }
