@@ -22,7 +22,6 @@ export const Todo: FC = () => {
   const dispatch = useAppDispatch()
   const editedTask = useAppSelector(selectTask)
 
-  console.log(dataUser, 'this is userdate')
   return (
     <div className="todo-content">
       <div className="todo-title">
